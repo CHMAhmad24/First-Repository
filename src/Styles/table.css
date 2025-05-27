@@ -1,0 +1,28 @@
+th{
+    text-align: left;
+}
+table{
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 95%;
+}
+.About_data tbody tr td{
+    overflow: hidden;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+
+tbody tr td:nth-child(1),
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(3){
+    width: 33.23%;
+}
+
+thead tr th:nth-child(1),
+thead tr th:nth-child(2),
+thead tr th:nth-child(3){
+    width: 69.24%;
+}

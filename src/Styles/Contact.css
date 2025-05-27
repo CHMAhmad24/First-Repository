@@ -1,0 +1,37 @@
+tbody tr td,
+thead tr th{
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact_data tbody tr td{
+    font-size: 16px;
+    overflow: hidden;
+    height: 70px;
+    padding: 20px;
+}
+tbody tr:nth-of-type(odd) td{
+    border: 1px solid #ccc;
+    background-color: lightseagreen;
+}
+tbody tr:nth-of-type(even) td{
+    border: 1px solid #ccc;
+    background-color: lightcoral;
+}
+tbody tr{
+    width: 100%;
+}
+
+th:nth-child(4){
+    width: 50.8%;
+}
+td:nth-child(4){
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.contact_data td:nth-child(4) button{
+    height: 45px;
+}
