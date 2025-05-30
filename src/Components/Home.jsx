@@ -33,12 +33,12 @@ const Home = () => {
                     </tr>
                 </thead >
                 <tbody>
-                    {data?.map((product) => (
+                    {data.map((product) => (
                         <>
                             <tr>
-                                <td>{product?.name}</td>
-                                <td>{product?.email}</td>
-                                <td>{product?.phone}</td>
+                                <td>{product.name}</td>
+                                <td>{product.email}</td>
+                                <td>{product.phone}</td>
                             </tr>
                         </>
                     ))}

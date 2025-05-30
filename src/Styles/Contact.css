@@ -4,8 +4,8 @@ thead tr th{
     display: flex;
     justify-content: left;
     align-items: center;
+    border: 1px solid #ccc;
 }
-
 .contact_data tbody tr td{
     font-size: 16px;
     overflow: hidden;
@@ -13,11 +13,9 @@ thead tr th{
     padding: 20px;
 }
 tbody tr:nth-of-type(odd) td{
-    border: 1px solid #ccc;
     background-color: lightseagreen;
 }
 tbody tr:nth-of-type(even) td{
-    border: 1px solid #ccc;
     background-color: lightcoral;
 }
 tbody tr{
@@ -27,7 +25,8 @@ tbody tr{
 th:nth-child(4){
     width: 50.8%;
 }
-td:nth-child(4){
+td:nth-child(5){
+    width: 30.8%;
     display: flex;
     gap: 10px;
     padding: 10px;
