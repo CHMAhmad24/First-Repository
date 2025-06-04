@@ -22,10 +22,10 @@ tbody tr{
     width: 100%;
 }
 
-th:nth-child(4){
-    width: 50.8%;
+.contact_data th:nth-child(4){
+    width: 63.8%;
 }
-td:nth-child(5){
+td:nth-child(4){
     width: 30.8%;
     display: flex;
     gap: 10px;
